@@ -61,6 +61,9 @@
     font-weight: 600;
     cursor: pointer;
 }
+.cartitems-total button:hover{
+    opacity: 0.88;
+}
 .cartitems-promocode{
     flex: 1;
     font-size: 16px;
