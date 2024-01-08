@@ -1,7 +1,37 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
+// import {useAuth} from '../Context/UserAuthContext'
+
 import './Css/LoginSignup.css'
 
-function LoginSignup() {
+const LoginSignup = () => {
+  // const {error, SignUp, currentuser} = useAuth()
+  // const {err, setError} = useState('')
+  // const {backError, setBackError} = useState('')
+  // const {user, setUser} = useState({
+  //   name: '',
+  //   email: '',
+  //   password: ''
+  // })
+  // useEffect(() => {
+  //   console.log('I am in')
+  //   if (error) {
+  //     setInterval(()=>{
+  //       setBackError('')
+  //     }, 5000)
+  //     setBackError(error)
+  //   }
+  // }, {error, currentuser}) 
+
+  // const UserHandeler = (e) => {
+  //   const {name, value} = e.target;
+  //   setUser((pre) => {
+  //     return {
+  //       ...pre,
+  //       [name]: value 
+  //     }
+  //   })
+  // }
+
   return (
     <div className='loginsignup'>
       <div className="loginsignup-container">
